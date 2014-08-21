@@ -7,8 +7,8 @@ Simple thread problem demonstration
   
 To reproduce, run:
   
-  mvn assembly:single
-  java -Dthreaded -jar target/echoServer-1.0-SNAPSHOT-jar-with-dependencies.jar
+    mvn assembly:single
+    java -Dthreaded -jar target/echoServer-1.0-SNAPSHOT-jar-with-dependencies.jar
   
 And then telnet to the echo server on port 8007.
   
