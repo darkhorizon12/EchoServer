@@ -7,6 +7,7 @@ Simple thread problem demonstration
   
 To reproduce, run:
   
+    mvn compile
     mvn assembly:single
     java -Dthreaded -jar target/echoServer-1.0-SNAPSHOT-jar-with-dependencies.jar
   
